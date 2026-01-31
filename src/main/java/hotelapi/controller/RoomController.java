@@ -1,7 +1,7 @@
-package com.example.hotelapi.controller;
+package hotelapi.controller;
 
-import com.example.hotelapi.model.Room;
-import com.example.hotelapi.repository.RoomRepository;
+import hotelapi.model.Room;
+import hotelapi.repository.RoomRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -1,6 +1,10 @@
-package com.example.hotelapi.model;
+package hotelapi.model;
 
 import jakarta.persistence.*;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 @Entity
 @Table(name = "rooms")
